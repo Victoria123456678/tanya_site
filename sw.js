@@ -5,7 +5,6 @@ const assetUrls = [
   'index.html',
   '/js/app.js',
   '/css/styles.css',
-  '/js/main.js',
 ]
 
 self.addEventListener('install', async event => {
