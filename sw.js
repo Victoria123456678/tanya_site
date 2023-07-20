@@ -9,7 +9,7 @@ const assetUrls = [
 ]
 
 self.addEventListener('install', async event => {
-  //const cache = await caches.open(staticCacheName)
+  const cache = await caches.open(staticCacheName)
   await cache.addAll(assetUrls)
 })
 
